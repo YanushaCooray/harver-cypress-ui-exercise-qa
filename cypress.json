@@ -1,0 +1,12 @@
+{
+    "defaultCommandTimeout": 7000,
+    "pageLoadTimeout": 7000,
+    "viewportWidth": 1280,
+    "viewportHeight": 720,
+    "retries": {
+      "runMode": 2,
+      "openMode": 0
+    },
+    "video": true,
+    "commonUrl":"https://the-internet.herokuapp.com/"
+  }

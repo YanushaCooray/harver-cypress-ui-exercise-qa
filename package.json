@@ -1,0 +1,21 @@
+{
+  "name": "harver-cypress-ui-exercise-qa",
+  "version": "1.0.0",
+  "description": "Harver Candidate UI Automation Task By Yanusha Cooray",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.7.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-image-snapshot": "^4.0.1"
+  },
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.1.0",
+    "cypress-xpath": "^1.6.2"
+  }
+}
