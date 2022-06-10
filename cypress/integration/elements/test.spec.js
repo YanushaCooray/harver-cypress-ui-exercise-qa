@@ -75,7 +75,7 @@ context('Check the functionality of five elements', () => {
       click the link 
       and verify
     */
-    cy.xpath('//a[text()="Click here"]').click({ force: true });
+    cy.xpath('//a[text()="Click here"]',{timeout: 10000}).click({ force: true });
     cy.get('#flash').contains('Action successful');
     cy.get('#flash').matchImageSnapshot();
 
